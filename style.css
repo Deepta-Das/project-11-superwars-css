@@ -1,4 +1,32 @@
-.footer{
-  margin-left : 80px;
-  font-size : 18px;
+
+.grid-container{
+  margin-left: 18%;
+  margin-right: 18%;
+  width: 64%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  
+  text-align: center;
+  
+}
+span{
+  font-size: 20px;
+  font-weight: normal;
+}
+.heroes,.villian{
+  
+  display: grid;
+  grid-template-columns:auto auto;
+  justify-content: space-evenly;
+  text-align: center;
+  
+   
+}
+.spider,.cap,.gem,.wonder{
+  border: 5px solid #eee;
+  padding: 15px;
+}
+p{
+  font-size: 28px;
+  
 }
